@@ -1,0 +1,45 @@
+   [
+        {
+            "id": 1,
+            "name": "Winston",
+            "breed": "Pembroke Welsh Corgi",
+            "age": 3,
+            "weight": 25,
+            "color": "red",
+            "favorite_toy": "tennis ball",
+            "personality_traits": [
+                "friendly",
+                "energetic",
+                "smart"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Olive",
+            "breed": "Cardigan Welsh Corgi",
+            "age": 2,
+            "weight": 28,
+            "color": "brindle",
+            "favorite_toy": "squeaky stuffed animal",
+            "personality_traits": [
+                "affectionate",
+                "playful",
+                "curious"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Charlie",
+            "breed": "Pembroke Welsh Corgi",
+            "age": 6,
+            "weight": 22,
+            "color": "tricolor",
+            "favorite_toy": "rope toy",
+            "personality_traits": [
+                "loyal",
+                "stubborn",
+                "independent"
+            ]
+        }
+    ]
+
