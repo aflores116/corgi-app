@@ -23,25 +23,21 @@ const Breeders = () => {
             <Divider
                 dividerTitle={"How to Pick A Breeder"} 
             />
-                <a href="#">test</a>
+              
         <p>This information applies to all dogs, but typically you want to make sure you get information from the breeder.</p>
         <ul>
-            <li>Ask a lot of questions</li>
-            <li>Make sure that the breeders provide documentation on the lineage and their illnesses</li>
-            <li>Have a breeder that dodges questions? Probably best to avoid them if oyu want a healthy pup.</li>
+            <li>Identify your breed</li>
+            <li>Research potential breeders</li>
+            <li>Visit the breeder</li>
+            <li>Ask about health screenings</li>
+            <li>Observe the puppies' behiavior</li>
         </ul>
        
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente voluptatibus, unde, illum, accusamus ullam nemo ea minus facilis ducimus harum officiis quia sed. Blanditiis fugiat nemo adipisci similique delectus?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente voluptatibus, unde, illum, accusamus ullam nemo ea minus facilis ducimus harum officiis quia sed. Blanditiis fugiat nemo adipisci similique delectus?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente voluptatibus, unde, illum, accusamus ullam nemo ea minus facilis ducimus harum officiis quia sed. Blanditiis fugiat nemo adipisci similique delectus?+
-
-        </p> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente voluptatibus, unde, illum, accusamus ullam nemo ea minus facilis ducimus harum officiis quia sed. Blanditiis fugiat nemo adipisci similique delectus?</p> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sapiente voluptatibus, unde, illum, accusamus ullam nemo ea minus facilis ducimus harum officiis quia sed. Blanditiis fugiat nemo adipisci similique delectus?</p> 
-
         <Cards/>
         
+        <Divider
+                dividerTitle={"Things to Ask Breeders"} 
+            />
 <ul className="accordion-listing">
     <li className="accordion-listing__item">
     <Accordion
@@ -60,6 +56,14 @@ const Breeders = () => {
             isExpanded={false}
          />
     </li>
+    <li className="accordion-listing__item">
+    <Accordion
+            accodionTitle={"Question 3"}
+            accordionContent={"Answer 3"}   
+            isH2={false}
+            isExpanded={false}
+         />
+    </li>
 </ul>
         
             </div>
@@ -70,12 +74,7 @@ const Breeders = () => {
                 <BreederCards
                 hasTitle={true}/>
             </aside>
-
-           
-
-        </div>
-
-        
+        </div>        
     </div>
     </>
   )
