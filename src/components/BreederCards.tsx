@@ -17,6 +17,7 @@ const BreederCards = ({ hasTitle }: BreederCardsProps) => {
                     <h3 className="card-body-title">{breeder.name}</h3>
                   ) : (
                     <h3>{breeder.name}</h3>
+                    test
                   )}
 
                   <p>{breeder.description}</p>
