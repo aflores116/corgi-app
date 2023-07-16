@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aflores116.github.io/corgiapp",
+  "homepage": "https://aflores116.github.io/corgi-app",
 
   "scripts": {
     "dev": "vite",
