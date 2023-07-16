@@ -65,11 +65,12 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
         <label className='form__item-label'>Message</label>
         <Field<string> className='form__item-input' name="message" component="textarea" placeholder="Message" />
       </div>
-
-      <div className='form__item'>
+      <div className="form">
+        <div className="form__item">
         <button type="submit" disabled={submitting}>
           Submit
         </button>
+        </div>
       </div>
         </form>
       )}
