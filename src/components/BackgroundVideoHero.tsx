@@ -19,6 +19,7 @@ const BackgroundVideoHero = ({
   videoSrc,
   isPageTitle,
 }: BackgroundVideoProps) => {
+  
   return (
     <div className="page-banner-media">
       {videoDescription ? (

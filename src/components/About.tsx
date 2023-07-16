@@ -4,23 +4,9 @@ import Cards from "./Cards";
 import CorgiVideo3 from "../assets/video/corgi-video-3.mp4";
 import Divider from "./Divider";
 
-interface Props {
-  videoSrc?: string;
-  videoDescription?: string;
-  title?: string;
-  creditsUrl?: string;
-  creditsText?: string;
-  isPageTitle: boolean;
-}
 
-const About = ({
-  videoSrc,
-  videoDescription,
-  title,
-  creditsUrl,
-  creditsText,
-  isPageTitle,
-}: Props) => {
+
+const About = () => {
   return (
     <>
       <BackgroundVideoHero
