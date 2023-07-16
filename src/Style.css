@@ -200,7 +200,7 @@ a.skip-main:active,
 
 @media(min-width:60em) {
     .site-header-nav__trigger {
-        displaY: none;
+        display: none;
         pointer-events: none;
     }
 }

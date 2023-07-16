@@ -47,14 +47,10 @@ const SiteBody = ({videoDescription, title, creditsUrl, creditsText,  videoSrc, 
 
         <ul className="card-listing">
             <li className="card-listing__item">
-                <Cards
-                    cardTitle={"This is a Pembroke Welsh Corgi"}
-                    cardText={"Cute"} />
+                <Cards />
             </li>
             <li className="card-listing__item">
-            <Cards
-                    cardTitle={"This is a Cardigan Welsh Corgi"}
-                    cardText={"cute"} />
+            <Cards />
             </li>
           
             </ul>
@@ -98,14 +94,10 @@ const SiteBody = ({videoDescription, title, creditsUrl, creditsText,  videoSrc, 
 
         <ul className="card-listing">
             <li className="card-listing__item">
-                <Cards
-                    cardTitle={"This is a Pembroke Welsh Corgi"}
-                    cardText={"Cute"} />
+                <Cards />
             </li>
             <li className="card-listing__item">
-            <Cards
-                    cardTitle={"This is a Cardigan Welsh Corgi"}
-                    cardText={"cute"} />
+            <Cards/>
             </li>
           
             </ul>
