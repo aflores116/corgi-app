@@ -582,6 +582,7 @@ a.skip-main:active,
 /* forms */
 .form{
     width:100%;
+    margin:0 0 15px 0;
 }
 @media(min-width:60rem){
     .form{
@@ -620,5 +621,9 @@ textarea{
 
 .form__item-input:focus{
     outline:2px solid dodgerblue;
+}
+
+.form-submission-message{
+    min-height:300px;
 }
 
