@@ -24,7 +24,7 @@ const Contact = () => {
             creditsText={
               "Young woman play with corgi dog on the sea beach Stock Videos by Vecteezy"
             }
-            isPageTitle={true}
+            isPageTitle={false}
         />
                     <div className="container">
                         {!submitted ? ( <ContactForm onSubmit={handleSubmit}/>) : (<div>thank you for contacting us!</div>)}
