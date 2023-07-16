@@ -61,6 +61,13 @@ const handleNavButton = function(){
           About Corgis
           </Link>
         </li>
+        <li className="site-nav-listing__item">
+        <Link className="site-nav-listing__item-link"
+          to="/Contact"
+        >
+          Contact
+          </Link>
+        </li>
       </ul>
   </nav>
 

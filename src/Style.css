@@ -560,3 +560,47 @@ a.skip-main:active,
     outline:1px solid dodgerblue;
 
 }
+
+/* forms */
+.form{
+    width:100%;
+}
+@media(min-width:60rem){
+    .form{
+        display:flex;
+        flex-wrap:wrap;
+        gap:15px;
+    }
+}
+
+.form__item{
+    width:100%;
+}
+
+@media(min-width:60rem){
+    .form__item{
+        width:calc(50% - 15px);
+        flex:1 0 auto;
+    }
+}
+.form__item-label{
+    display:block;
+    font-weight:800;
+    margin:0 0 5px 0;
+}
+
+.form__item-input{
+    width:100%;
+    display:block;
+    background:#fff;
+    color:#000;
+    padding:10px;
+}
+textarea{
+    min-height:100px;
+}
+
+.form__item-input:focus{
+    outline:2px solid dodgerblue;
+}
+

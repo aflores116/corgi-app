@@ -11,6 +11,7 @@ import SiteLogo from "./components/SiteLogo";
 import BackgroundVideoHero from "./components/BackgroundVideoHero";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SiteFooter from "./components/SiteFooter";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,17 +20,12 @@ function App() {
   return (
     <>
       <SiteHeader tagline={"Let's Talk Corgis"} />
-      {/* <BackgroundVideoHero
-        videoDescription={"A corgi walking down the beach. The video has no audio."}
-        title={"Let's talk about Corgis"}
-        creditsUrl={"https://www.vecteezy.com/video/4192384-funny-corgi-dog-near-the-sea"}
-        creditsText={"Funny corgi dog near the sea Stock Videos by Vecteezy"}
-        /> */}
       <main className="body" id="main" tabIndex={-1}>
         <Routes>
-          <Route path="/" element={<Home isPageTitle={true} />} />
+          <Route path="/" element={<Home  />} />
           <Route path="/breeders" element={<Breeders isPageTitle={false} />} />
           <Route path="/about" element={<About isPageTitle={false} />} />
+          <Route path="/contact" element={<Contact isPageTitle={false} />} />
         </Routes>
       </main>
       <SiteFooter />
