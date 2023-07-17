@@ -4,7 +4,8 @@ import BreederInfo from "../assets/mock-data/breeder-info.json";
 interface BreederCardsProps {
   hasTitle: boolean;
 }
-const BreederCards = ({ hasTitle }: BreederCardsProps) => {
+const BreederCards = (props:BreederCardsProps) => {
+  const {hasTitle} = props;
   return (
     <>
       <ul className="card-listing card-listing--block card-listing--border">

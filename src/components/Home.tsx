@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "./Cards";
 import BackgroundVideoHero from "./BackgroundVideoHero";
-import CorgiVideo from "../assets/video/corgi-video.mp4";
+// import CorgiVideo from "../assets/video/corgi-video.mp4";
 import Divider from "./Divider";
 
 const Home = () => {

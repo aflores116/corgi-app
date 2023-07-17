@@ -1,7 +1,7 @@
 import React from 'react'
 import Cards from './Cards'
 import BackgroundVideoHero from './BackgroundVideoHero';
-import CorgiVideo2 from '../assets/video/corgi-video-2.mp4'
+// import CorgiVideo2 from '../assets/video/corgi-video-2.mp4'
 import Accordion from './Accordion';
 import BreederCards from './BreederCards';
 import Divider from './Divider';
