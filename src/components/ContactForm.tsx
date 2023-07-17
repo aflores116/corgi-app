@@ -46,7 +46,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
       </div>)
       ;
   }
-test
+
   return (
     <Form<ContactFormValues> onSubmit={handleSubmit} validate={validate}>
       {({ handleSubmit, submitting }) => (
