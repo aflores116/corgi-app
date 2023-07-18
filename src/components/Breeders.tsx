@@ -34,7 +34,7 @@ const Breeders = () => {
         </ul>
        
         <Cards/>
-       
+        
         <Divider
                 dividerTitle={"Things to Ask Breeders"} 
             />
@@ -65,7 +65,7 @@ const Breeders = () => {
          />
     </li>
 </ul>
-       
+        
             </div>
             <aside className="two-column__rail">
             <Divider
