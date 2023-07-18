@@ -11,15 +11,8 @@ interface BackgroundVideoProps {
   isPageTitle: boolean;
 }
 
-const BackgroundVideoHero = ({
-  videoDescription,
-  title,
-  creditsUrl,
-  creditsText,
-  videoSrc,
-  isPageTitle,
-}: BackgroundVideoProps) => {
-  
+const BackgroundVideoHero = (props: BackgroundVideoProps) => {
+  const{videoSrc, videoDescription, title, creditsUrl, creditsText, isPageTitle} = props;
   return (
     <div className="page-banner-media">
       {videoDescription ? (

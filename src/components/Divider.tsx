@@ -5,7 +5,8 @@ interface DividerProps {
   dividerTitle: string;
 }
 
-const Divider = ({dividerTitle} : DividerProps) => {
+const Divider = (props: DividerProps) => {
+  const {dividerTitle} = props;
   return (
     <div className="page-divider">
     <h3 className="page-divider__title">{dividerTitle}</h3>

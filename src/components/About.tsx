@@ -5,7 +5,7 @@ import CorgiVideo3 from "../assets/video/corgi-video-3.mp4";
 import Divider from "./Divider";
 
 
-
+console.log(CorgiVideo3);
 const About = () => {
   return (
     <>
