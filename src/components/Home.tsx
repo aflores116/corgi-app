@@ -21,14 +21,14 @@ const Home = () => {
       />
       <div className="container">
         <Divider dividerTitle={"Pembroke or Cardigan Corgi?"} />
-        <h2>Cardigan Welsh Corgis</h2>
+        <h3>Cardigan Welsh Corgis</h3>
         <p>
         The Cardigan Welsh Corgi is one of the oldest breeds in the British Isles, with a history that dates back over 3,000 years. They were bred to herd cattle, and they're known for their intelligence and versatility.
         </p>
         <p>
         Physically, Cardigans are slightly larger than Pembrokes and they can be distinguished by their long tails, which Pembrokes typically do not have. Cardigans also have more rounded ears, a wider variety of coat colors, and a heavier bone structure.
         </p>
-        <h2>Pembroke Welsh Corgi:</h2>
+        <h3>Pembroke Welsh Corgi:</h3>
         <p>
         The Pembroke Welsh Corgi is the younger of the two corgi breeds and was bred around the 10th century. They were also used for herding and are known for their intelligence, affection, and active nature.
         </p>
