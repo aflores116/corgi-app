@@ -49,20 +49,20 @@ const handleNavButton = function(){
         <li className="site-nav-listing__item">
           <Link 
                 className="site-nav-listing__item-link"
-                to="/breeders">
+                to="/corgi-app/breeders">
             Breeders
           </Link>
         </li>
         <li className="site-nav-listing__item">
         <Link className="site-nav-listing__item-link"
-          to="/about"
+          to="/corgi-app/about"
         >
           About Corgis
           </Link>
         </li>
         <li className="site-nav-listing__item">
         <Link className="site-nav-listing__item-link"
-          to="/Contact"
+          to="/corgi-app/Contact"
         >
           Contact
           </Link>
