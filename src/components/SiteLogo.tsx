@@ -13,7 +13,7 @@ const SiteLogo = ({tagline, handleLogoMarkup, logoMarkup}:Props) => {
   return (
     <div className="site-header-logo">
         <div className="site-logo-media">
-          { location.pathname == "/corgi-app/" ? 
+          { location.pathname == "/" ? 
           (
             <h1 className="site-logo-title">  
                 <Link className="site-logo-media__link" to="/"
