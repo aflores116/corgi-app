@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import ReactDOM from "react-dom/client";
 import { Link } from "react-router-dom";
 import App from '../App';
-import SiteBody from './SiteBody';
 import SiteHeader from './SiteHeader';
 
 interface Props {
