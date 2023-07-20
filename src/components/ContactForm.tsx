@@ -67,7 +67,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
       </div>
       <div className="form">
         <div className="form__item">
-        <button type="submit" disabled={submitting}>
+        <button type="submit" disabled={submitting} className='btn'>
           Submit
         </button>
         </div>
