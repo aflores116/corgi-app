@@ -621,6 +621,7 @@ a.skip-main:active,
   padding: 10px;
   border:2px solid #000;
   border-radius:5px;
+  font-size:1rem;
 }
 .form__item-input::placeholder {
     font-size:1rem;
