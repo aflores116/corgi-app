@@ -27,6 +27,7 @@ const BackgroundVideoHero = (props: BackgroundVideoProps) => {
         autoPlay
         muted
         loop
+        playsInline
       >
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support HTML5 video.
