@@ -8,13 +8,9 @@ interface Props {
   handleLogoMarkup?:() => any;
 }
 
-
 const SiteNavigation = ({handleLogoMarkup, } : Props) => {
 
-
 const [navTriggerActive, setNavTriggerActive] = useState<boolean>(false);
-
-
 
 useEffect(() =>  {
 }, [navTriggerActive]);
@@ -45,20 +41,20 @@ const handleNavButton = function(){
         <li className="site-nav-listing__item">
           <Link 
                 className="site-nav-listing__item-link"
-                to="/corgi-app/breeders">
+                to="/breeders">
             Breeders
           </Link>
         </li>
         <li className="site-nav-listing__item">
         <Link className="site-nav-listing__item-link"
-          to="/corgi-app/about"
+          to="/about"
         >
           About Corgis
           </Link>
         </li>
         <li className="site-nav-listing__item">
         <Link className="site-nav-listing__item-link"
-          to="/corgi-app/Contact"
+          to="/Contact"
         >
           Contact
           </Link>
