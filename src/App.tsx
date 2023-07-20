@@ -22,10 +22,10 @@ function App() {
       <SiteHeader tagline={"Let's Talk Corgis"} />
       <main className="body" id="main" tabIndex={-1}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/breeders" element={<Breeders />} />
-          <Route path="/about" element={<About  />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/corgi-app/" element={<Home />} />
+          <Route path="/corgi-app/breeders" element={<Breeders />} />
+          <Route path="/corgi-app/about" element={<About  />} />
+          <Route path="/corgi-app/contact" element={<Contact />} />
         </Routes>
       </main>
       <SiteFooter />
