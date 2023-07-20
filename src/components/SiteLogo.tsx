@@ -24,7 +24,7 @@ const SiteLogo = ({tagline, handleLogoMarkup, logoMarkup}:Props) => {
             </h1>
           ) :
           (
-            <Link className="site-logo-media__link" to="/">
+            <Link className="site-logo-media__link" to="/corgi-app/">
               <span className="visually-hidden">{tagline}</span>
               <img src={ltacLogo} alt="Corgi" className="site-logo-media__link-img" />
           </Link>
