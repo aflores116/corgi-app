@@ -76,7 +76,7 @@ const SiteNavigation = ({ handleLogoMarkup }: Props) => {
             </Link>
           </li>
           <li className="site-nav-listing__item">
-            <button onClick={() => setDarkMode(!darkMode)}>
+            <button className='btn' onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? "Light Mode" : "Dark Mode"}
             </button>
           </li>
