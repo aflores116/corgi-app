@@ -32,7 +32,7 @@ export default SiteThemeContext;
 export function useSiteThemeContext() : SiteThemeContext  {
     const context = useContext(SiteThemeContext);
     if(!context){
-        throw new Error('useSiteThemeContext must be used within a SiteThemeContext');
+        throw new Error('SiteThemeContext must be used within a SiteThemeContextProvider');
     }
     return context;
 }
