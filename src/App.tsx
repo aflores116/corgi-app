@@ -18,13 +18,13 @@ function App() {
   const [count, setCount] = useState(0);
   const [showImages, setShowImages] = useState();
   //context
-// const {state: {darkMode}, actor: {setDarkMode}} = useSiteThemeContext();
+const {state: {darkMode}} = useSiteThemeContext();
 
   return (
     <>
       <SiteThemeContext.Provider value={useSiteTheme()}>
       <SiteHeader tagline={"Let's Talk Corgis"} />
-      <main className={`body` } id="main" tabIndex={-1}>
+      <main className={`body ${!darkMode ? null : 'body--dark-theme'}` } id="main" tabIndex={-1}>
         <Routes>
           <Route path="/corgi-app/" element={<Home />} />
           <Route path="/corgi-app/breeders" element={<Breeders />} />
