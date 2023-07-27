@@ -13,7 +13,7 @@ const Body = () => {
     const {state: {darkMode}} = useSiteThemeContext();
 
   return (
-    <main className={`body ${!darkMode ? null : 'body--dark-theme'}` } id="main" tabIndex={-1}>
+    <main className={`body ${!darkMode ? '' : 'body--dark-theme'}` } id="main" tabIndex={-1}>
         <Routes>
           <Route path="/corgi-app/" element={<Home />} />
           <Route path="/corgi-app/breeders" element={<Breeders />} />
